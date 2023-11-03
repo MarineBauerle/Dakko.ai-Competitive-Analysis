@@ -1,6 +1,6 @@
 # Dakko.ai-Competitive-Analysis
 
-Project Overview
+# Project Overview
 This repository contains data, scripts, and documentation related to Dakko.ai's competitive analysis project. The primary goal of this project is to visualize and understand our market position in comparison to competitors using various metrics and data points.
 
 
