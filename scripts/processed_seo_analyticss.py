@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file with semicolon as delimiter
-df = pd.read_csv('1backlinks.csv', delimiter=';')
+df = pd.read_csv('seo_analytics.csv', delimiter=';')
 
 # Define a function to convert values with 'K' and 'M' to integers
 def convert_to_int(value):
@@ -17,4 +17,4 @@ for col in df.columns:
     df[col] = df[col].apply(convert_to_int)
 
 # Save the modified dataframe back to a CSV file with semicolon as delimiter
-df.to_csv('1backlinks_modified.csv', sep=';', index=False)
+df.to_csv('processed_seo_analytics.csv', sep=';', index=False)
