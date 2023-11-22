@@ -60,4 +60,4 @@ if __name__ == "__main__":
     cleaned_data = clean_data(data)
     print(cleaned_data)
 
-    cleaned_data.to_csv('cleaned_trends.csv', index=False)
+    cleaned_data.to_csv('processed_trends.csv', index=False)
