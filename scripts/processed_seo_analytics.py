@@ -20,7 +20,7 @@ for col in df.columns:
 df.to_csv('processed_seo_analytics.csv', sep=';', index=False)
 
 
-### The Python script displayed in the image is designed to manipulate and clean a CSV file containing SEO analytics data. Here's a breakdown of its functionality:
+### The Python script displayed is designed to manipulate and clean a CSV file containing SEO analytics data. Here's a breakdown of its functionality:
 
 1. Import Pandas Library: The script starts by importing the pandas library, which is essential for data manipulation and analysis in Python.
 
